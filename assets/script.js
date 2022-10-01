@@ -32,7 +32,7 @@ for(i=0; i<textBox.length; i++) {
     }
 }
 
-$(".btn").on("click", function () {
+$(".saveBtn").on("click", function () {
     saveText.innerText = 'Your entry has been saved!'
     localStorage.setItem("9am", hour9.value);
     localStorage.setItem("10am", hour10.value);
