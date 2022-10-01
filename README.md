@@ -24,4 +24,4 @@ You're all set! Your tasks are now saved and you can return to the page at anyti
 
 ## Example Video:
 
-![Walkthrough](https://app.castify.com/view/643dc0ff-240d-4559git-b377-34f3009a846c)
+![Walkthrough](/assets/Images/2022-10-01%2019-21-27_Trim.mp4)
