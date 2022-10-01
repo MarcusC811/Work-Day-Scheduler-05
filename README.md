@@ -24,4 +24,4 @@ You're all set! Your tasks are now saved and you can return to the page at anyti
 
 ## Example Video:
 
-![Walkthrough](/assets/Images/2022-10-01%2019-21-27_Trim.mp4)
+![Walkthrough](https://user-images.githubusercontent.com/111150947/193431840-0062c50c-16a0-4945-976f-dc7af556e081.gif)
