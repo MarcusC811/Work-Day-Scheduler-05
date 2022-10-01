@@ -1,3 +1,5 @@
+var today = moment();
+var saveText = document.getElementById("saveMessage");
 var textBox = document.getElementsByTagName("textarea");
 var testing = document.getElementById("test");
 var hour9 = document.getElementById("09")
@@ -11,6 +13,8 @@ var hour16 = document.getElementById("16")
 var hour17 = document.getElementById("17")
 var saveButton = document.getElementsByClassName(".btn");
 var storedInput = localStorage.getItem('9am');
+
+$("#currentDay").text(today.format("LLLL"));
 
 for(i=0; i<textBox.length; i++) {
     if(textBox[i].id < moment().format('HH')) {
@@ -29,7 +33,7 @@ for(i=0; i<textBox.length; i++) {
 }
 
 $(".btn").on("click", function () {
-    
+    saveText.innerText = 'Your entry has been saved!'
     localStorage.setItem("9am", hour9.value);
     localStorage.setItem("10am", hour10.value);
     localStorage.setItem("11am", hour11.value);
